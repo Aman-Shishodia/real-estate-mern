@@ -1,0 +1,51 @@
+.properties {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2vw;
+  gap: 4vw;
+}
+
+.properties-card {
+  padding: 1vw;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px 5px rgba(136, 160, 255, 0.25);
+}
+
+.properties-card:hover {
+  transform: scale(1.05);
+  transition: linear 0.3s;
+  background: var(--blue-gradient2);
+}
+
+.properties-card img {
+  width: 100%;
+  height: 50%;
+}
+
+.properties-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.properties-card p {
+  font-weight: 100;
+  font-size: 14px;
+  /* margin-bottom: 5vw; */
+}
+
+.properties-card h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.properties-card span {
+  color: gold;
+  padding: 0 5px;
+}
+
+.properties-card h5 {
+  font-size: 18px;
+  font-weight: 500;
+}

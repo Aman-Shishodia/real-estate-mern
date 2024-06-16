@@ -1,0 +1,14 @@
+footer{
+    /* border: 2px solid red; */
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+    align-items: center;
+}
+
+
+footer h1{
+    color: #0B2C3C;
+}
+

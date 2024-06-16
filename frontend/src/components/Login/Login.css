@@ -1,0 +1,33 @@
+.login{
+    width: 30%;
+    margin: auto;
+    /* text-align: center; */
+    padding: 2vw;
+    margin-bottom: 3vw;
+    box-shadow: 2px 4px 6px 5px rgba(136, 160, 255, 0.25);
+}
+
+.login input{
+    width: 25vw;
+    height: 3.5vw;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 1.5vw;
+    border: 1.5px solid  #E2E8F0;
+}
+
+
+.login button{
+    padding: 10px 30px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1vw;
+    background-color: var(--lightpink);
+}
+
+.loginlink{
+    text-decoration: none;
+}

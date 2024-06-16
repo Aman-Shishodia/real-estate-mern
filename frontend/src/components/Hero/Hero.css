@@ -1,0 +1,57 @@
+.hero{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.hero-part1{
+    width: 50%;
+    }
+    
+    .hero-part1 h1{
+        font-size: 60px;
+        position: relative;
+    line-height: 58px;
+    color: #F56565;
+    font-weight: 500;
+}
+
+.hero-part1 span{
+    color: black;
+}
+
+.hero-part1 span::after{
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 75%;
+    height: 25%;
+    background-color: #F56565;
+    z-index: -1;
+}
+
+.hero-part1 p{
+    width: 82%;
+    margin-top: 4vw;
+    line-height: 1.8vw;
+}
+
+.hero-part2{
+    width: 45%;
+}
+
+.image-container {
+    width: 100%;
+    height: 300px;
+  }
+
+.hero-part2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,45 @@
+.residency {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2vw;
+  gap: 4vw;
+  cursor: pointer;
+}
+
+.residency-card {
+  padding: 1vw;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px 5px rgba(136, 160, 255, 0.25);
+}
+
+.residency-card:hover {
+  transform: scale(1.05);
+  transition: linear 0.3s;
+  background: var(--lightpink-gradient);
+}
+
+.residency-card img {
+  width: 100%;
+  height: 70%;
+}
+
+.residency-card p {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.residency-card h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.residency-card span {
+  color: gold;
+  padding: 0 5px;
+}
+
+.residency-card h5 {
+  font-size: 18px;
+  font-weight: 500;
+}

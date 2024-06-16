@@ -1,0 +1,15 @@
+.app{
+	/* background-color: gray 400; */
+	overflow: hidden;
+}
+
+.white-gradient{
+	position: absolute;
+	right: 0%;
+	width: 20vw;
+	z-index: -1;
+	height: 30vw;
+	background: #0B2C3C;
+	filter: blur(100px);
+	border-radius: 100px;
+}

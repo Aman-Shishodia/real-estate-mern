@@ -1,0 +1,107 @@
+.addproperty{
+    width: 90%;
+    margin: auto;
+    padding: 2vw 6vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 4px 6px 5px rgba(136, 160, 255, 0.25);
+    margin-bottom: 3vw;
+}
+
+.addproperty-part1 ol{
+    display: flex;
+    padding: 0 20px;
+    /* gap: 20vw; */
+    justify-content: space-around;
+    /* list-style-position: inside; */
+    list-style: none;
+    position: relative;
+}
+
+.addproperty-part1 ol span{
+    display: inline-block;
+    text-align: center;
+    padding: 5px 14px;
+    margin: 0 10px;
+    background-color: var(--lightpink);
+    border: 2px solid var(--secondarypink);
+    /* color: #fff; */
+    border-radius: 50%;
+    position: relative;
+}
+
+.hr1{
+    position: absolute;
+    top: 50%;
+    /* right: 0; */
+    left: 25%;
+    /* width: 20px; */
+    width: 8vw;
+    border: 1px solid black;
+}
+
+.hr2{
+    position: absolute;
+    top: 50%;
+    /* right: 0; */
+    left: 49%;
+    /* width: 20px; */
+    width: 8vw;
+    border: 1px solid black;
+}
+
+.hr3{
+    position: absolute;
+    top: 50%;
+    /* right: 0; */
+    left: 70%;
+    /* width: 20px; */
+    width: 8vw;
+    border: 1px solid black;
+}
+
+.addproperty-part2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+
+.addproperty input{
+    width: 25vw;
+    height: 3.5vw;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 1.5vw;
+    border: 1.5px solid  #E2E8F0;
+}
+
+.addproperty textarea{
+    width: 25vw;
+    height: 10vw;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 1.5vw;
+    border: 1.5px solid  #E2E8F0;
+    resize: vertical;
+}
+
+.addproperty-part2 label{
+    margin-bottom: 2vw;
+    /* color: aqua; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addproperty-part3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.addproperty-part3 button{
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: var(--lightpink);
+}
